@@ -46,6 +46,8 @@ int main()
     point3 origin(0.0, 0.0, 0.0);
     point3 lower_left_corner = origin - horizontal / 2 - vertical / 2 - vec3(0, 0, 1);
 
+
+    //iterates through each ray and writes the image into ppm format
     for (int j = image_height - 1; j >= 0; j--) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
         for (int i = 0; i < image_width; i++) {
