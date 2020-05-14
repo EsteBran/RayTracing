@@ -10,7 +10,6 @@ class sphere : public hittable {
 
 		virtual bool hit(const ray& r, double tmin, double tmax, hit_record& rec) const;
 
-
 	public:
 		point3 center;
 		double radius;

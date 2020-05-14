@@ -150,6 +150,7 @@
     <ClCompile Include="RayTracing1.0.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="color.h" />
     <ClInclude Include="hittable.h" />
     <ClInclude Include="hittable_list.h" />
