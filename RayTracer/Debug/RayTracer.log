@@ -1,0 +1,4 @@
+﻿  RayTracer.cpp
+C:\Users\Tawseef\source\repos\RayTracer\camera.h(11,41): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Tawseef\source\repos\RayTracer\camera.h(12,53): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  RayTracer.vcxproj -> C:\Users\Tawseef\source\repos\RayTracer\Debug\RayTracer.exe
